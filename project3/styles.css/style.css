@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+header {
+    height: 70px;
+    background-color: #1abc9c;
+}
+.wrapper {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none; /* убираем нижнее подчеркивание */
+    
+}
+a:not(:last-child) {
+    margin-right: 20px;
+}
+.social-icon:not(:last-child) {
+    margin-right: 20px;
+}
+/* О нас */
+.about {
+    display: flex;
+    align-items: center;
+}
+.about-img {
+    width: 50%;
+}
+.about-info {
+    width: 50%;
+    padding: 0 65px;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+}
+.about-descr {
+    font-size: 20px;
+    text-align: justify;
+}
+.our_projects {
+    background-color: #dcffeb;
+    padding: 100px 65px ;
+}
+h2 {
+    text-align: left;
+    margin-bottom: 50px;
+}
+.projects-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.project1 {
+    background-image: url(../images/project.png);
+    padding: 18px 36px;
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    height: 378px;
+    flex-direction: column;
+}
+.project1:hover .h3-hover{
+    background-image: url(../images/project.png); 
+}
+.contacts {
+    width: 90%;
+    background-color: white;
+    padding: 84px 70px 76px;
+    margin: 0 auto;
+}
+h4 {
+    font-weight: 400;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 50px; 
+}
+ul { 
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.img {
+    width: 20%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.img1 {
+    width: 43px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.color {
+   margin-bottom: 10px;
+   font-family: 'Oswald';
+   text-align: center;
+   color: #999999;
+   font-size: 20px;
+}
+.text{ 
+   font-family: 'Oswald', sans-serif;
+   font-style: Medium;
+   font-size: 15px;
+   font-weight: 500px;
+   line-height: 36px;
+   text-align: center;
+
+}
+
+
+
+
+
+
+
+ /*
+  :not() - 
+
+  max-width - 
+
+  h1
+
+  fast-child - cтиль применится к к первому элементу из несколько родственных
+       last - child - сти применится к последнему элементу из нескольких родственных */   
